@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "https://raw.githubusercontent.com/lihenggui/blocker-general-rules/main/zh-cn/general.json",
-    "description": "穿山甲|火山引擎|神策分析|阿里分析|友盟|腾讯广告|个推sdk",
+    "description": "穿山甲|火山引擎|神策分析|阿里分析|友盟|腾讯广告|个推sdk|MoPub|qamob",
     "iconUrl": "icon/google.png",
     "name": "综合广告屏蔽",
     "safeToBlock": true,
@@ -22,7 +22,9 @@
       "com.qq.e.",
       "com.tencent.qqmini.ad.",
       "com.tencent.klevin.ads.",
-      "com.igexin."
+      "com.igexin.",
+      ".mopub.mobileads.",
+      "com.qamob.hads."
     ],
     "useRegexSearch": false
   },
@@ -323,38 +325,6 @@
     "useRegexSearch": false
   },
   {
-    "id": 26,
-    "company": "qamob",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "未知",
-    "iconUrl": "",
-    "name": "qamob广告",
-    "safeToBlock": true,
-    "searchKeyword": [
-      "com.qamob.hads."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 27,
-    "company": "MoPub",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "Mopub是一家移动广告服务供应商，MoPub 一直致力于提供专为移动应用开发者设计的高质量变现解决方案，为全球的移动应用发布商和开发商提供货币化解决方案",
-    "iconUrl": "icon/mopub.ico",
-    "name": "MoPub广告",
-    "safeToBlock": true,
-    "searchKeyword": [
-      ".mopub.mobileads."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
     "id": 28,
     "company": "RongCloud",
     "contributors": [
@@ -399,39 +369,6 @@
     "safeToBlock": true,
     "searchKeyword": [
       ".huawei.hms.support.api.push."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 31,
-    "company": "小米科技",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "小米消息推送服务在MIUI上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务",
-    "iconUrl": "icon/xiaomi.ico",
-    "name": "小米推送",
-    "safeToBlock": true,
-    "searchKeyword": [
-      ".xiaomi.push",
-      ".mipush.sdk."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 32,
-    "company": "小米科技",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "小米应用检查更新SDK帮助您的用户尽快获得最新版本的应用，轻松增加【应用检查更新】的功能，通过小米应用商店的CDN服务，快速的把最新版应用推送给用户。",
-    "iconUrl": "icon/xiaomi.ico",
-    "name": "小米应用检查更新SDK",
-    "safeToBlock": true,
-    "searchKeyword": [
-      "com.market.sdk."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

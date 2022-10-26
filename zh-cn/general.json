@@ -5,7 +5,7 @@
     "contributors": [
       "who"
     ],
-    "description": "通用AD|无法被通用规则覆盖的AD：穿山甲|火山引擎|友盟|腾讯广告|个推sdk|qamob|oppo广告|快手广告|SuperSonic游戏广告|bugly|tinker|魅族推送|华为移动服务|百度云推送|阿里推送|腾讯推送|腾讯分析|腾讯X5内核|极光推送|融云推送|vivo推送|oppo推送",
+    "description": "通用AD|无法被通用规则覆盖的AD：穿山甲|火山引擎|友盟|腾讯广告|个推sdk|qamob|oppo广告|快手广告|SuperSonic游戏广告|bugly|tinker|魅族推送|华为移动服务|百度云推送|阿里推送|腾讯推送|腾讯分析|腾讯X5内核|极光推送|融云推送|vivo推送|oppo推送|其他",
     "iconUrl": "icon/google.png",
     "name": "综合广告屏蔽",
     "safeToBlock": true,
@@ -44,6 +44,7 @@
       ".huawei.hms.",
       ".huawei.agconnect.",
       "com.huawei.updatesdk.",
+      "com.hihonor.",
       "com.baidu.android.pushservice.",
       "com.alibaba.sdk.android.push.",
       "com.taobao.accs.",
@@ -58,7 +59,8 @@
       "com.vivo.push.sdk.",
       ".heytap.msp.push",
       ".heytap.mcssdk.",
-      ".coloros.mcssdk."
+      ".coloros.mcssdk.",
+      ".qqmini."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

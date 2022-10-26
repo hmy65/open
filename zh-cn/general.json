@@ -7,10 +7,6 @@
     "name": "综合广告屏蔽",
     "safeToBlock": true,
     "searchKeyword": [
-      ".ad.",
-      ".ads.",
-      ".AdActivity.",
-      ".ADActivity.",
       "com.ss.android.socialbase.",
       "com.ss.android.downloadlib.",
       "com.bytedance.embedapplog.",

@@ -5,7 +5,7 @@
     "contributors": [
       "who"
     ],
-    "description": "通用AD|无法被通用规则覆盖的AD：穿山甲|火山引擎|友盟|腾讯广告|个推sdk|MoPub|qamob|vivo广告|快手广告|SuperSonic游戏广告|tinker|魅族推送",
+    "description": "通用AD|无法被通用规则覆盖的AD：穿山甲|火山引擎|友盟|腾讯广告|个推sdk|qamob|oppo广告|快手广告|SuperSonic游戏广告|tinker|魅族推送|华为推送|华为更新|百度云推送",
     "iconUrl": "icon/google.png",
     "name": "综合广告屏蔽",
     "safeToBlock": true,
@@ -14,6 +14,9 @@
       ".ads.",
       ".mobad.",
       ".mobads.",
+      ".mobilead.",
+      ".mobileads.",
+      ".adsdk.",
       ".AdActivity.",
       ".ADActivity.",
       ".analytics.",
@@ -28,17 +31,18 @@
       "com.umeng.message.",
       "com.qq.e.",
       "com.igexin.",
-      ".mopub.mobileads.",
       "com.qamob.hads.",
       ".OppoAdsAppActivity",
-      "com.vivo.mobilead.",
-      "com.vivo.adsdk.",
       "com.kuaishou.commercial.downloader.",
       "com.kwad.",
       ".supersonicads.",
       "com.tencent.tinker.",
       "com.tencent.rfix.",
-      ".meizu.cloud.pushsdk."
+      ".meizu.cloud.pushsdk.",
+      ".huawei.hms.support.api.push.",
+      ".huawei.hms.update.",
+      "com.huawei.updatesdk.",
+      "com.baidu.android.pushservice."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false
@@ -144,22 +148,6 @@
     "useRegexSearch": false
   },
   {
-    "id": 20,
-    "company": "百度",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "百度云推送（Push）是一站式APP信息推送平台，为企业和开发者提供免费的消息推送服务，开发者可以通过云推送向用户精准推送通知和自定义消息以提升用户留存率和活跃度。",
-    "iconUrl": "icon/baidupush.ico",
-    "name": "百度云推送",
-    "safeToBlock": true,
-    "searchKeyword": [
-      "com.baidu.android.pushservice."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
     "id": 28,
     "company": "RongCloud",
     "contributors": [
@@ -171,39 +159,6 @@
     "safeToBlock": true,
     "searchKeyword": [
       "io.rong.push."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 29,
-    "company": "华为",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "未知",
-    "iconUrl": "icon/huawei.png",
-    "name": "华为更新",
-    "safeToBlock": true,
-    "searchKeyword": [
-      ".huawei.hms.update.",
-      "com.huawei.updatesdk."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 30,
-    "company": "华为",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "提供稳定、及时、高效的消息推送服务，助力应用精准触达用户，有效提升用户活跃度和粘度。",
-    "iconUrl": "icon/huawei.png",
-    "name": "华为推送",
-    "safeToBlock": true,
-    "searchKeyword": [
-      ".huawei.hms.support.api.push."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

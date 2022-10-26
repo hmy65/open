@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "company": "哈哈哈公司",
+    "company": "https://raw.githubusercontent.com/lihenggui/blocker-general-rules/main/zh-cn/general.json",
     "contributors": [
       "uGuess"
     ],
-    "description": "穿山甲|火山引擎|神策分析|阿里分析|友盟|腾讯广告",
+    "description": "穿山甲|火山引擎|神策分析|阿里分析|友盟|腾讯广告|个推sdk",
     "iconUrl": "icon/google.png",
     "name": "综合广告屏蔽",
     "safeToBlock": true,
@@ -14,6 +14,7 @@
       "com.ss.android.downloadlib.",
       "com.bytedance.embedapplog.",
       "com.bytedance.pangle.",
+      "com.bytedance.sdk.openadsdk.",
       "com.bytedance.tea.crash.",
       "com.yxcrop.gifshow.ad.",
       "com.yxcrop.gifshow.map.",
@@ -23,7 +24,8 @@
       "com.umeng.message.",
       "com.qq.e.",
       "com.tencent.qqmini.ad.",
-      "com.tencent.klevin.ads."
+      "com.tencent.klevin.ads.",
+      "com.igexin."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false
@@ -141,22 +143,6 @@
     "safeToBlock": true,
     "searchKeyword": [
       "com.tencent.smtt."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 14,
-    "company": "每日互动股份有限公司",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "个推是商用级的移动应用消息推送云服务供应商，客户端SDK支持Android和iOS两大平台，开发者集成SDK后，可以通过个推强大的web端及丰富的API开放接口，发送推送消息、统计分析推送效果。",
-    "iconUrl": "icon/getui.ico",
-    "name": "个推SDK",
-    "safeToBlock": true,
-    "searchKeyword": [
-      "com.igexin."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

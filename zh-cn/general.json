@@ -5,7 +5,7 @@
     "contributors": [
       "who"
     ],
-    "description": "通用AD|无法被通用规则覆盖的AD：穿山甲|火山引擎|友盟|腾讯广告|个推sdk|qamob|oppo广告|快手广告|SuperSonic游戏广告|tinker|魅族推送|华为推送|华为更新|百度云推送",
+    "description": "通用AD|无法被通用规则覆盖的AD：穿山甲|火山引擎|友盟|腾讯广告|个推sdk|qamob|oppo广告|快手广告|SuperSonic游戏广告|bugly|tinker|魅族推送|华为推送|华为更新|百度云推送",
     "iconUrl": "icon/google.png",
     "name": "综合广告屏蔽",
     "safeToBlock": true,
@@ -36,6 +36,7 @@
       "com.kuaishou.commercial.downloader.",
       "com.kwad.",
       ".supersonicads.",
+      "com.tencent.bugly.",
       "com.tencent.tinker.",
       "com.tencent.rfix.",
       ".meizu.cloud.pushsdk.",
@@ -95,22 +96,6 @@
     "safeToBlock": true,
     "searchKeyword": [
       "com.tencent.mid.api.MidProvider."
-    ],
-    "sideEffect": "未知",
-    "useRegexSearch": false
-  },
-  {
-    "id": 11,
-    "company": "腾讯",
-    "contributors": [
-      "溯澜染汐"
-    ],
-    "description": "腾讯Bugly，为移动开发者提供专业的异常上报和运营统计，帮助开发者快速发现并解决异常，同时掌握产品运营动态，及时跟进用户反馈。",
-    "iconUrl": "icon/tencentpush.ico",
-    "name": "腾讯Bugly",
-    "safeToBlock": true,
-    "searchKeyword": [
-      "com.tencent.bugly."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

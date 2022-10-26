@@ -2,9 +2,6 @@
   {
     "id": 1,
     "company": "https://raw.githubusercontent.com/lihenggui/blocker-general-rules/main/zh-cn/general.json",
-    "contributors": [
-      "uGuess"
-    ],
     "description": "穿山甲|火山引擎|神策分析|阿里分析|友盟|腾讯广告|个推sdk",
     "iconUrl": "icon/google.png",
     "name": "综合广告屏蔽",
@@ -27,7 +24,6 @@
       "com.tencent.klevin.ads.",
       "com.igexin."
     ],
-    "sideEffect": "未知",
     "useRegexSearch": false
   },
   {

@@ -60,7 +60,8 @@
       ".heytap.msp.push",
       ".heytap.mcssdk.",
       ".coloros.mcssdk.",
-      ".qqmini."
+      ".qqmini.",
+      ".gms.measurement."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

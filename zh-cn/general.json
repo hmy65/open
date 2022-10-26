@@ -29,6 +29,7 @@
       ".mopub.mobileads.",
       "com.qamob.hads."
     ],
+    "sideEffect": "未知",
     "useRegexSearch": false
   },
   {

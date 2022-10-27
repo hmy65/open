@@ -67,6 +67,8 @@
       ".qqmini.",
       ".weibo.appmarket.",
       ".weibo.game.",
+      ".baidu.swan",
+      ".baidu.wallet",
       ".gms.measurement."
     ],
     "sideEffect": "未知",

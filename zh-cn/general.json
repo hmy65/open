@@ -84,7 +84,7 @@
     "safeToBlock": true,
     "searchKeyword": [
       ".gms.ads.identifier.",
-      ".log.BusinessUsedTimeLogProvider."
+      ".log.BusinessUsedTimeLogProvider"
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

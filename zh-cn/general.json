@@ -67,5 +67,21 @@
     ],
     "sideEffect": "未知",
     "useRegexSearch": false
+  },
+  {
+    "id": 2,
+    "company": "...",
+    "contributors": [
+      "who"
+    ],
+    "description": "通用规则误杀导致的部分app闪退",
+    "iconUrl": "icon/google.png",
+    "name": "白名单",
+    "safeToBlock": true,
+    "searchKeyword": [
+      ".gms.ad.identifier."
+    ],
+    "sideEffect": "未知",
+    "useRegexSearch": false
   }
 ]

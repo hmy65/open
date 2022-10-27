@@ -83,7 +83,8 @@
     "name": "白名单",
     "safeToBlock": true,
     "searchKeyword": [
-      ".gms.ads.identifier."
+      ".gms.ads.identifier.",
+      ".log.BusinessUsedTimeLogProvider."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

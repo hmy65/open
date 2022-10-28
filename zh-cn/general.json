@@ -69,7 +69,9 @@
       ".weibo.game.",
       ".baidu.swan.",
       ".baidu.wallet.",
-      ".gms.measurement."
+      ".gms.measurement.",
+      ".tencent.mm.plugin.sport.",
+      ".tencent.mm.plugin.game."
     ],
     "sideEffect": "未知",
     "useRegexSearch": false

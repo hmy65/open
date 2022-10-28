@@ -72,7 +72,7 @@
       ".gms.measurement.",
       ".tencent.mm.plugin.sport.",
       ".tencent.mm.plugin.game.",
-      ".tencent.mm.plugin.finder.feed.ui.FinderGame."
+      ".tencent.mm.plugin.finder.feed.ui.FinderGame"
     ],
     "sideEffect": "未知",
     "useRegexSearch": false
